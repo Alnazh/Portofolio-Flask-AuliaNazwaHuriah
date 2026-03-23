@@ -1,0 +1,24 @@
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE - PyCharm / VS Code
+.idea/
+.vscode/
+*.swp
+
+# OS System files
+.DS_Store
+Thumbs.db
+
+# Flask/Instance folder
+instance/
+.pytest_cache/

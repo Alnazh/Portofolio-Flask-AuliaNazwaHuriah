@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Portofolio - Aulia Nazwa Huriah</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/animate.css') }}">
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.carousel.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/owl.theme.default.min.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/magnific-popup.css') }}">
+	
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/flaticon.css') }}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	
+	
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="{{ url_for('home') }}">Alnzh<span>.</span></a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#certificate-section" class="nav-link"><span>Achievements</span></a></li>
+					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>GitHub</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider owl-carousel">
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container-fluid px-md-0">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						<div class="one-third order-md-last img" style="background-image:url('{{ url_for('static', filename='images/bg_1.jpg') }}');">
+							<div class="overlay"></div>
+							<div class="overlay-1"></div>
+						</div>
+						<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello! This is Aulia</span>
+								<h1 class="mb-4 mt-3">I'm An <span>Informatics Engineering Student</span> based in Bandung</h1>
+								<p><a href="#contact-section" class="btn btn-primary">Contact Me</a> <a href="#projects-section" class="btn btn-primary btn-outline-primary">My Projects</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container-fluid px-md-0">
+					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						<div class="one-third order-md-last img" style="background-image:url('{{ url_for('static', filename='images/bg_2.jpg') }}');">
+							<div class="overlay"></div>
+							<div class="overlay-1"></div>
+						</div>
+						<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">HELLO!</span>
+								<h1 class="mb-4 mt-3">Hi, I am <span>Aulia Nazwa Huriah</span> An Informatics Engineering Student</h1>
+								<p><a href="#contact-section" class="btn btn-primary">Contact Me</a> <a href="#projects-section" class="btn btn-primary btn-outline-primary">My Projects</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-counter img bg-light" id="section-counter">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-suitcase"></span>
+						</div>
+						<div class="text">
+							<strong class="number" data-number="08">0</strong>
+							<span>Subjects Taken</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-loyalty"></span>
+						</div>
+						<div class="text">
+							<strong class="number" data-number="12">0</strong>
+							<span>Academic Projects</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-coffee"></span>
+						</div>
+						<div class="text">
+							<strong class="number" data-number="03">0</strong>
+							<span>Programming Languages</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-calendar"></span>
+						</div>
+						<div class="text">
+							<strong class="number" data-number="1">0</strong>
+							<span>Online Course</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-6 col-lg-5 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
+						<div class="overlay"></div>
+						<div class="img d-flex align-self-stretch align-items-center" style="background-image:url('{{ url_for('static', filename='images/about-1.jpg') }}');">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+					<div class="py-md-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								<span class="subheading">My Intro</span>
+								<h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
+								<p>I am a 4th-semester Informatics Engineering student at Universitas Bale Bandung. I am actively developing my expertise in software engineering and creative multimedia production, with a focus on UI/UX Design using Figma, game development with Unity, and professional video editing techniques.</p>
+
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Name:</span> <span>Aulia Nazwa Huriah</span></li>
+									<li class="d-flex"><span>Education:</span> <span>B.Sc in Informatics Engineering, Bale Bandung University</span></li>
+									<li class="d-flex"><span>Address:</span> <span>Bandung, West Java, Indonesia</span></li>
+									<li class="d-flex"><span>Zip code:</span> <span>40379</span></li>
+									<li class="d-flex"><span>Email:</span> <span>alnzh08@gmail.com</span></li>
+									<li class="d-flex"><span>Phone: </span> <span>+62-8311-3030-353</span></li>
+								</ul>
+							</div>
+							<div class="col-md-12">
+								<div class="my-interest d-lg-flex w-100">
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-listening"></span>
+										</div>
+										<div class="text">Music</div>
+									</div>
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-suitcases"></span>
+										</div>
+										<div class="text">Travel</div>
+									</div>
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-video-player"></span>
+										</div>
+										<div class="text">Movie</div>
+									</div>
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-football"></span>
+										</div>
+										<div class="text">Sports</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="ftco-section bg-light" id="skills-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<span class="subheading">Skills</span>
+					<h2 class="mb-4">My Skills</h2>
+					<p>These are the programming and technical skills I have started learning and developing during my studies in Informatics Engineering.</p>
+				</div>
+			</div>
+			<div class="row progress-circle mb-5">
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">C/C++</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='70'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='70'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Flowchart & Algorithm</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='75'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Microsoft Office</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='90'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">90<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Problem Solving</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='70'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">UI/UX Design</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='80'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-hireme">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-8 col-lg-8 d-flex align-items-center">
+					<div class="w-100 py-4">
+						<h2>Have a project on your mind.</h2>
+						<p>I am available for collaborations in UI/UX design, web development, and multimedia projects. Let's turn your creative ideas into functional digital solutions!</p>
+						<p class="mb-0"><a href="#contact-section" class="btn btn-white py-3 px-4">Contact me</a></p>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 d-flex align-items-end">
+					<img src="{{ url_for('static', filename='images/author.png') }}" class="img-fluid" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section" id="services-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
+					<span class="subheading">Multimedia Works</span>
+					<h2 class="mb-4">YouTube Projects</h2>
+					<p>A collection of technical and creative projects documenting the process of software development and multimedia production.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/work-1.jpg') }});">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://youtu.be/XH7D7ezjGQU?list=PLZYt_cuXzonbKn43c3NT-D5RKwOX7qHSd" target="_blank">Perancangan Wireframe Aplikasi Mobile</a></h3>
+							<span>UI/UX Design - Low Fidelity</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/work-2.jpg') }});">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://youtu.be/UraXCA2IL8g?list=PLZYt_cuXzonbKn43c3NT-D5RKwOX7qHSd" target="_blank">Wireframe ke Prototipe Interaktif | Figma High-Fidelity</a></h3>
+							<span>UI/UX Design - High Fidelity</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/work-3.jpg') }});">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://youtu.be/Sa2ZjJTfpq8?list=PLZYt_cuXzonbKn43c3NT-D5RKwOX7qHSd" target="_blank">Editing Vokal Menggunakan Audacity</a></h3>
+							<span>Audio Engineering</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/work-4.jpg') }});">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://youtu.be/yAy4uS4J1Uw?list=PLZYt_cuXzonbKn43c3NT-D5RKwOX7qHSd" target="_blank">Animasi Logo Reveal 3D (Adobe After Effects)</a></h3>
+							<span>Motion Graphics</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/work-5.jpg') }});">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://youtu.be/JYy_AV4YQrk?list=PLZYt_cuXzonbKn43c3NT-D5RKwOX7qHSd" target="_blank">Pembuatan Komposisi 3D Donat menggunakan Blender</a></h3>
+							<span>3D Modeling & Sculpting</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/work-6.jpg') }});">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://youtu.be/fNJRXQrIbiQ?list=PLZYt_cuXzonbKn43c3NT-D5RKwOX7qHSd" target="_blank">Animasi Model 3D Donat</a></h3>
+							<span>3D Animation & Rendering</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/work-7.jpg') }});">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://youtu.be/AKtZAg_yAS8?list=PLZYt_cuXzonbKn43c3NT-D5RKwOX7qHSd" target="_blank">Storyboard Pembuatan Kopi Susu</a></h3>
+							<span>Pre-Production Design</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url({{ url_for('static', filename='images/work-8.jpg') }});">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://youtu.be/qfEUjcr-qUA?list=PLZYt_cuXzonbKn43c3NT-D5RKwOX7qHSd" target="_blank">Implementasi Teknik Cutting Dan Visual Storytelling</a></h3>
+							<span>Video Editing (DaVinci Resolve)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section testimony-section bg-primary" id="certificate-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
+					<span class="subheading">Achievements</span>
+					<h2 class="mb-4">Professional Certificates</h2>
+					<p>Verified certifications from global learning platforms and academic institutions.</p>
+				</div>
+			</div>
+			<div class="row ftco-animate">
+				<div class="col-md-12">
+					<div class="carousel-testimony owl-carousel">
+						<div class="item">
+							<div class="testimony-wrap">
+								<div class="cert-viewport" style="background-image: url({{ url_for('static', filename='images/SECC_RevoU.jpg') }})"></div>
+								<div class="cert-content">
+									<span class="name">Intro to Software Engineering</span>
+									<span class="position">RevoU</span>
+									<p class="cert-description">A certified 1-week intensive online course covering the fundamentals of software engineering and industry practices.</p>
+								</div>
+							</div>
+						</div>
+						
+						<div class="item">
+							<div class="testimony-wrap">
+								<div class="cert-viewport" style="background-image: url({{ url_for('static', filename='images/AI_page-0001.jpg') }})"></div>
+								<div class="cert-content">
+									<span class="name">AI Introduction</span>
+									<span class="position">MySkill</span>
+									<p class="cert-description">Understanding core AI concepts, machine learning logic, and its implementation in modern technology.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="testimony-wrap">
+								<div class="cert-viewport" style="background-image: url({{ url_for('static', filename='images/Data Analysis Fundamental_page-0001.jpg') }})"></div>
+								<div class="cert-content">
+									<span class="name">Data Analysis Fundamental</span>
+									<span class="position">MySkill</span>
+									<p class="cert-description">Mastering data types, analysis workflows, and how to derive actionable insights from complex datasets.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="testimony-wrap">
+								<div class="cert-viewport" style="background-image: url({{ url_for('static', filename='images/Data Analysis Preparation_page-0001.jpg') }})"></div>
+								<div class="cert-content">
+									<span class="name">Data Analysis Preparation</span>
+									<span class="position">MySkill</span>
+									<p class="cert-description">Deep dive into data cleaning, transformation, and quality assurance before the analysis process.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="testimony-wrap">
+								<div class="cert-viewport" style="background-image: url('{{ url_for('static', filename='images/Data_page-0001.jpg') }}')"></div>
+								<div class="cert-content">
+									<span class="name">Understanding Data</span>
+									<span class="position">MySkill</span>
+									<p class="cert-description">Exploring the basics of data, its importance in decision making, and the fundamental lifecycle of data processing.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="ftco-section bg-light" id="blog-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<span class="subheading">Development</span>
+					<h2 class="mb-4">GitHub Repositories</h2>
+					<p>A collection of my technical projects, source code, and software engineering work.</p>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="{{ url_for('single') }}" class="block-20" style="background-image: url('{{ url_for('static', filename='images/image_1.jpg') }}');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<div class="d-flex align-items-center mb-3 meta">
+								<p class="mb-0">
+									<span class="mr-2">Personal Project </span>
+									<a href="#" class="mr-2">GitHub</a>
+									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="https://github.com/Alnazh/Portofolio">Academic Portfolio Website</a></h3>
+							<p>Developed using modern web technologies to showcase my journey in Informatics Engineering and Multimedia.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry justify-content-end">
+						<a href="{{ url_for('single') }}" class="block-20" style="background-image: url('{{ url_for('static', filename='images/image_2.jpg') }}');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<div class="d-flex align-items-center mb-3 meta">
+								<p class="mb-0">
+									<span class="mr-2">Web System </span>
+									<a href="#" class="mr-2">GitHub</a>
+									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="https://github.com/Alnazh/Reservasi-Tiket-Pesawat">Online Laundry Management System</a></h3>
+							<p>A web-based system designed to manage orders, transactions, and customer data for laundry businesses. </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 d-flex ftco-animate">
+					<div class="blog-entry">
+						<a href="{{ url_for('single') }}" class="block-20" style="background-image: url('{{ url_for('static', filename='images/image_3.jpg') }}');">
+						</a>
+						<div class="text mt-3 float-right d-block">
+							<div class="d-flex align-items-center mb-3 meta">
+								<p class="mb-0">
+									<span class="mr-2">Python Script</span>
+									<a href="#" class="mr-2">GitHub</a>
+									<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="https://github.com/Alnazh/Sistem-Pemesanan-Menu-Cafe-dengan-Python">Python Cafe Ordering System</a></h3>
+							<p>A CLI-based application built with Python to handle menu selection and efficient transaction processing.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<span class="subheading">Contact Me</span>
+					<h2 class="mb-4">Get In Touch</h2>
+					<p>Feel free to reach out if me for any inquiries or collaboration opportunities. I'm always interested in hearing about new projects and opportunities.</p>
+				</div>
+			</div>
+
+			<div class="row block-9">
+				<div class="col-md-8">
+					<form action="{{ url_for('contact') }}" method="POST" class="bg-light p-4 p-md-5 contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Your Name">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Your Email">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" class="form-control" placeholder="Subject">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+								</div>
+							</div>
+						</div>
+					</form>
+					
+				</div>
+
+				<div class="col-md-4 d-flex pl-md-5">
+					<div class="row">
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-map-marker"></span>
+							</div>
+							<div class="text">
+								<p><span>Address:</span> Ancolmekar, Arjasari, Bandung, West Java, Indonesia</p>
+							</div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-phone"></span>
+							</div>
+							<div class="text">
+								<p><span>Phone:</span> <a href="tel://6283113030353">+62 831 1303 0353</a></p>
+							</div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-envelope"></span>
+							</div>
+							<div class="text">
+								<p><span>Email:</span> <a href="mailto:alnzh08@gmail.com">alnzh08@gmail.com</a></p>
+							</div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-paper-plane"></span>
+							</div>
+							<div class="text">
+								<p><span>Telegram</span> <a href="https://t.me/Alnazhh" target="_blank">@Alnazhh</a></p>
+							</div>
+						</div>
+					</div>
+					<!-- <div id="map" class="map"></div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<footer class="ftco-footer ftco-section">
+		<div class="container">
+			<div class="row mb-5">
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Lets Connect</h2>
+						<p>Let's collaborate! I am open to discussions regarding UI/UX design, web development, or multimedia projects. If you have a vision you'd like to bring to life, let's connect.</p>
+						<p><a href="#contact-section" class="btn btn-primary">Contact Me</a></p>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4 ml-md-4">
+						<h2 class="ftco-heading-2">Links</h2>
+						<ul class="list-unstyled">
+							<li><a href="#home-section"><span class="fa fa-chevron-right mr-2"></span>Home</a></li>
+							<li><a href="#about-section"><span class="fa fa-chevron-right mr-2"></span>About</a></li>
+							<li><a href="#skills-section"><span class="fa fa-chevron-right mr-2"></span>Skills</a></li>
+							<li><a href="#projects-section"><span class="fa fa-chevron-right mr-2"></span>Projects</a></li>
+							<li><a href="#contact-section"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Services</h2>
+						<ul class="list-unstyled">
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>UI/UX Design</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Web Development</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Video Editing</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Game Development</a></li>
+							<li><a href="#"><span class="fa fa-chevron-right mr-2"></span>Multimedia Production</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="ftco-footer-widget mb-4">
+						<h2 class="ftco-heading-2">Have a Questions?</h2>
+						<div class="block-23 mb-3">
+							<ul>
+								<li><span class="icon fa fa-map marker"></span><span class="text">Arjasari, Bandung, West Java, Indonesia</span></li>
+								<li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+62 831 1303 0353</span></a></li>
+								<li><a href="#"><span class="icon fa fa-envelope pr-4"></span><span class="text">alnzh08@gmail.com</span></a></li>
+							</ul>
+						</div>
+						<ul class="ftco-footer-social list-unstyled mt-2">
+							<li class="ftco-animate"><a href="https://x.com/Alnzhhh1"><span class="fa fa-twitter"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.linkedin.com/in/aulia-nazwa-huriah-33ba31315/"><span class="fa fa-linkedin"></span></a></li>
+							<li class="ftco-animate"><a href="https://www.instagram.com/_alnazh?igsh=aHFvaGdwdmxvbzVx"><span class="fa fa-instagram"></span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+
+					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		
+
+		<!-- loader -->
+		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery-migrate-3.0.1.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.waypoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.stellar.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/owl.carousel.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.magnific-popup.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.animateNumber.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/scrollax.min.js') }}"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src="{{ url_for('static', filename='js/google-map.js') }}"></script>
+		
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+		
+	</body>
+	</html>
